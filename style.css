@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+} 
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview{
+    background-color: red;
+    width: 100%;
+    height: 52rem;
+    padding: 1rem;
+}
+
+.section-title{
+    color: lime;
+}
+
+#product-overview h1{
+    color:white;
+    font-family: 'anton', sans-serif;
+}
+
+.main-header {
+    background-color: lime;
+    width: 100%;
+    padding: 1rem 1.7rem;
+}
