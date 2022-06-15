@@ -18,7 +18,8 @@ body{
 }
 
 .section-title {
-    color: lime;
+    color: darkgreen;
+    text-align: center;
 }
 
 #product-overview  h1{
@@ -35,6 +36,25 @@ body{
     width: 30%;
     vertical-align: middle;
 
+}
+
+.plan--highlighted{
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__subtitle{
+    background-color: white;
+    color:green;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.plan__feautures {
+    list-style: none;
+    text-align: center;
 }
 
 .main-header {
