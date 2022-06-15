@@ -38,6 +38,7 @@ body{
 
 }
 
+
 .plan--highlighted{
     background-color: green;
     color: white;
@@ -52,9 +53,66 @@ body{
     border-radius: 8px;
 }
 
+.plan__title {
+    color: darkgreen;
+}
+
+.plan__price{
+    color: darkgray;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price{
+    color: black;
+}
+
+.button {
+    background-color: darkgreen;
+    color: white;
+    font: inherit;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1.5px transparent solid;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color: darkgreen;
+    border-color: transparent;
+}
+
+.plan--highlighted .button{
+    background-color: red;
+    color: white;
+  
+}
+
+.plan--highlighted .button:hover{
+    background-color: white;
+    color: red;
+    border-color: transparent;
+}
+
+.button:focus{
+    outline: none;
+}
+
 .plan__feautures {
     list-style: none;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feauture{
+    margin: 8px 0px;
 }
 
 .main-header {
