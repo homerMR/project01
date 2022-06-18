@@ -139,13 +139,13 @@ body{
     vertical-align: top;
 }
 
-/* .key-feature__description {
+.key-feature__description {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     color: white;
-    background-color: blue;
-} */
+
+}
 
 .main-header {
     width: 100%;
