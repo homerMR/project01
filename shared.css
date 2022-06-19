@@ -100,3 +100,28 @@
 .main-footer__link a:active{
     color: red;
 }
+
+.button {
+    background-color: darkgreen;
+    color: white;
+    font: inherit;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1.5px transparent solid;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    
+}
+
+.button:hover,
+.button:active{
+    background-color: white;
+    color: darkgreen;
+    border-color: transparent;
+}
+
+.button:focus{
+    outline: none;
+}

@@ -69,7 +69,7 @@ body{
     color: black;
 }
 
-.button {
+/* .button {
     background-color: darkgreen;
     color: white;
     font: inherit;
@@ -83,11 +83,12 @@ body{
     
 }
 
-.button:hover{
+.button:hover,
+.button:active{
     background-color: white;
     color: darkgreen;
     border-color: transparent;
-}
+} */
 
 .plan--highlighted .button{
     background-color: red;
@@ -101,9 +102,9 @@ body{
     border-color: transparent;
 }
 
-.button:focus{
+/* .button:focus{
     outline: none;
-}
+} */
 
 .plan__feautures {
     list-style: none;
@@ -155,7 +156,7 @@ body{
     margin: 0 auto;
 }
 
-.main-header {
+/* .main-header {
     width: 100%;
     background: lime;
     padding: 8px 16px;
@@ -256,4 +257,4 @@ body{
 .main-footer__link a:hover,
 .main-footer__link a:active{
     color: red;
-}
+} */
