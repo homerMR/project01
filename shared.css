@@ -9,8 +9,13 @@ body{
 
 .main-header {
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     background: lime;
     padding: 8px 16px;
+    z-index: 1;
+  
 }
 
 .main-header > div {
@@ -35,7 +40,7 @@ body{
     display: inline-block;
     text-align: right;
     width: calc(100% - 74px);
-    vertical-align: middle1;
+    vertical-align: middle;
 }
 
 .main-nav__items {
