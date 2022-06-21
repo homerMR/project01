@@ -14,7 +14,7 @@ body{
     left: 0;
     background: lime;
     padding: 8px 16px;
-    z-index: 1;
+    z-index: 2;
   
 }
 
@@ -28,13 +28,13 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-    transition: all .4s ease-in-out;
+    height:50px;
+    display: block;
 }
 
-.main-header__brand:hover{
-    color: red;
+.main-header__brand img{
+    height: 100%;
 }
-
 
 .main-nav {
     display: inline-block;

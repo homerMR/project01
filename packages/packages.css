@@ -17,6 +17,7 @@ main{
     width: 80%; 
     transition: all .3s;
     position: relative;
+    z-index: 1;
 }
 
 .product-plan:hover,
@@ -44,6 +45,7 @@ main{
     padding: 8px;
     background: red;
     border-radius: 10px;
+    z-index: 10;
 }
 
 .product-plan__title {
