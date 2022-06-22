@@ -12,8 +12,7 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
-
+    overflow-x: hidden;
 }
 
 .backdrop {
@@ -129,6 +128,7 @@ body{
     text-decoration: none;
     color: white;
     transition: all .4s;
+    font-size: 2rem;
 }
 
 .main-footer__link a:hover,
