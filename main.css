@@ -173,6 +173,7 @@
   .modal__title {
     text-align: center;
     margin: 0 0 1rem 0;
+    font-size: 2rem;
   }
   
   .modal__actions {
@@ -185,8 +186,9 @@
     text-decoration: none;
     color: white;
     font: inherit;
-    padding: 0.5rem 1rem;
+    padding: 2rem 4rem;
     cursor: pointer;
+    font-size: 2rem;
   }
   
   .modal__action:hover,
