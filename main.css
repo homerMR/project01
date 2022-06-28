@@ -32,7 +32,7 @@
   font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) and (orientation: portrait) {
+@media (min-width: 40rem) and (min-height: 60rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
@@ -99,8 +99,6 @@
 }
 
 @media (min-width: 40rem) and (orientation: landscape)
-/* @media (min-width: 40rem), (orientation: landscape) */
-/* if you replace and with a comma, it means if you have a minnimum width of 40rem or landscape orientation, the website will display as fallowed  */
 {
   
   .plan__list {
