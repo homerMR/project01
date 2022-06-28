@@ -7,3 +7,9 @@ main{
     font-size: 2.5rem;
 
 }
+
+.signup-form label,
+.signup-form input,
+.signup-form select {
+    
+}
