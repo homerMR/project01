@@ -5,7 +5,13 @@ main{
     text-align: center;
     color: red;
     font-size: 2.5rem;
+}
 
+.signup-form {
+    padding: 1rem;
+}
+.signup-form label {
+    font-weight: bold;
 }
 
 .signup-form label,
@@ -23,5 +29,18 @@ main{
 .signup-form input[id*="terms"] + label
 /*  what this is essentially saying is that target all labels that directly fallows .signup-form input[id*="terms"] element */
 {
+    display: inline-block;
+    width: auto;
+}
 
+.signup-form button[type="submit"] {
+    display: block;
+    margin-top: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .signup-form {
+        margin: auto;
+        width: 25rem;
+    }
 }
