@@ -11,5 +11,17 @@ main{
 .signup-form label,
 .signup-form input,
 .signup-form select {
+    display: block;
+    margin-top: 1rem;
+    width: 100% 
+    /* width:100% to force the elements to exapand over the full available width  */
     
+}
+
+/* .signup-form input [type="checkbox"] */
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label
+/*  what this is essentially saying is that target all labels that directly fallows .signup-form input[id*="terms"] element */
+{
+
 }
