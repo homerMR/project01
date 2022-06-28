@@ -32,7 +32,16 @@
   font-size: 1.6rem;
 }
 
+@media (min-width: 40rem) and (orientation: portrait) {
+  #product-overview {
+    height: 40vh;
+    background-position: 50% 25%;
+  } 
 
+  #product-overview h1 {                                                                           
+    font-size: 3rem;
+  }
+}
 
 .section-title {
   color: #2ddf5c;
@@ -89,7 +98,10 @@
   margin: 0.5rem 0;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (orientation: landscape)
+/* @media (min-width: 40rem), (orientation: landscape) */
+/* if you replace and with a comma, it means if you have a minnimum width of 40rem or landscape orientation, the website will display as fallowed  */
+{
   
   .plan__list {
     width: 100%;
@@ -114,6 +126,10 @@
   background: #ff1b68;
   margin-top: 5rem;
   padding: 1rem;
+}
+
+.key-feature__list {
+  list-style: none;
 }
 
 #key-features .section-title {
@@ -207,14 +223,3 @@
   border-color: #ff5454;
 }
 
-@media (min-width: 40rem) {
-  #product-overview {
-    height: 40vh;
-    background-position: 50% 25%;
-  } 
-
-  #product-overview h1 {
-    font-size: 3rem;
-  }
-
-}
